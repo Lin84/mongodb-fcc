@@ -454,7 +454,6 @@ to stdout after you have found it.
 
 var mongoClient = require('mongodb').MongoClient
 var size = process.argv[2]
-// console.log('​size', size);
 var url = 'mongodb://localhost:27017/learnyoumongo'
 
 mongoClient.connect(url, function(err, database) {
